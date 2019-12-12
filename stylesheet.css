@@ -1,0 +1,40 @@
+.main_content {
+  display: flex;
+}
+
+.main_section {
+  margin-left: 2%;
+}
+
+.task_body {
+  text-align: center;
+}
+
+.task_h1 {
+  text-align: center;
+}
+
+.main_aside {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+  border: 2px solid black;
+  padding: 2%;
+}
+
+.task {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+button {
+  margin-top: 3%;
+}
+
+.main_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
